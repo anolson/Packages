@@ -85,10 +85,6 @@ Symbol === :foo
 # ^^^^ variable.other.constant.ruby -meta.constant.ruby
 #          ^^^^
 
-{ class: foo, module: bar }
-# ^^^^^^ constant.other.symbol
-#             ^^^^^^^ constant.other.symbol
-
 ##################
 # Blocks
 ##################
@@ -356,6 +352,10 @@ puts 1 ? foo::baz:bar
 
 puts foo: bar
 #    ^^^^ constant.other.symbol
+
+{ class: foo, module: bar }
+# ^^^^^^ constant.other.symbol
+#             ^^^^^^^ constant.other.symbol
 
 
 ##################
