@@ -85,6 +85,9 @@ Symbol === :foo
 # ^^^^ variable.other.constant.ruby -meta.constant.ruby
 #          ^^^^
 
+{ class: foo, module: bar }
+# ^^^^^^ constant.other.symbol
+#             ^^^^^^^ constant.other.symbol
 
 ##################
 # Blocks
